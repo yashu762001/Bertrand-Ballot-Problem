@@ -36,3 +36,6 @@ for i in range(0, 15):
     dp.append(l1)
         
 print(func(0,0,13,3,2,dp, True)/comb(13,3))
+
+# Just check the printed result with : (a-k*b)/(a+b). It would match with it. This is the required probability for number of votes of A to be k times greater than
+# Number of votes of B.
